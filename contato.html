@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+    <img src="logo.png" alt="logo senac">
+	<hr>
+	<h1>Contato</h1>
+<form name="cadastro" method="POST" action="sucesso.html">
+    
+    <label for="txtNome">Seu nome</label>
+
+    <br>
+
+    <input type="text" name="txtNome" id="txtNome" placeholder="Digite Nome" title="Digite o Nome" minlength="3" value="" required>
+
+    <br>
+
+    <label for="txtEmail">Seu email</label>
+
+    <br>
+
+    <input type="email" name="txtEmail" id="txtEmail" placeholder="Digite seu email" title="Digite seu email" value="" required>
+
+    <br>
+
+    <label for="txtTel">Telefone</label>
+
+    <br>
+
+    <input type="tel" name="txtTel" id="txtTel" placeholder="Digite seu numero" title="Digite seu numero" required>
+
+    <br>
+
+    <label for="assunto">Assunto:</label>
+
+    <br>
+
+    <select id="assunto">
+
+    <option>Selecione um opção</option>
+
+    <option value="help">Suporte</option>
+
+    <option value="duvi">Duvidas</option>
+
+    <option value="sec">Secretária</option>
+
+    <option value="fin">Financeiro</option>
+
+    <option value="docs">Emissão de documentos</option>
+
+    </select>
+
+    <br>
+
+    <label id="txtMensagem">Mensagem</label>
+    
+    <br>
+    
+    <textarea id="txtMensagem" rows="5"></textarea>
+
+    <br>
+
+    <input type="checkbox" id="ckbCopia">
+
+    <label for="ckbCopia">Enviar uma cópia para você</label>
+
+    <br>
+
+    <input type="submit"
+
+    id="btnEnviar"
+
+    value="Enviar Mensagem">
+
+ 
+
+    <br>
+    <a href="pagina_senac.html">Voltar</a>
+
+</form>
+</body>
+</html>

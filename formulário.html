@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="PT-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Formulario</title>
+
+</head>
+
+<body>
+
+    <h1>Trabalhando com Formulario</h1>
+
+    <form>
+
+        <label for="txtNome">Nome</label>
+
+        <br>
+
+        <input type="text" name="txtNome" id="txtNome" placeholder="Digite Nome" title="Digite o Nome" maxlength="9" minlength="3"value=""required>
+
+        <br>  
+
+        <label for="txtSenha">Senha</label>
+
+         <br> 
+
+        <input type="password" id="txtSenha" title="Digite a Senha" maxlength="8"minlength="6" required>
+
+        <br>
+
+        <br>
+
+        <input type="submit" id="btnEnviar" value="Enviar Dados">
+
+        <br>
+
+        <label for="ipbFoto">Foto</label>
+
+        <br>
+
+        <input type="file" id="ipbFoto" title="Selecione uma Foto" required>
+
+    <h4>Forma de Contato</h4>
+
+    <input type="radio" name="Contato" id="opcTelefone">
+
+    <label for="opcTelefone">Telefone</label>
+
+    <input type="radio" name="Contato" id="opcWhatsApp">
+
+    <label for="opcWhatsApp">WhatsApp</label>
+
+    <input type="radio" name="Contato" id="opcE-mail">
+
+    <label for="opcE-mail">E-mail</label>
+
+    <input type="radio"name="Contato" id="opcCarta">
+
+    <label for="opcCarta">Carta</label>
+
+    <h4>Cursos de Interesse</h4>
+
+    <input type="checkbox" id="ckbHtml">
+
+    <label for="ckbHtmal">HTML</label>
+
+    <input type="checkbox" id="ckbCSS">
+
+<label for="ckbCSS">CSS</label>
+
+<input type="checkbox" id="ckbJavaScript">
+
+<label for="ckbJavaScript">javaScript</label>
+
+<input type="checkbox" id="ckbPhotoShop">
+
+<label for="ckbPhotoShop">PhotoShop</label>
+
+<label for=clrColor>Cor de Tinta</label>
+
+<input type="color" id="color">
+
+<br>
+
+<label for="dtNacismento">Data de Nacismento</label>
+
+<input type="date" id="dtNacismento">
+
+<br>
+
+<label id="txtDescricao">Digite sua Solitação</label>
+
+<br>
+
+<textarea id="txtDescricao" rows="5"></textarea>
+
+<label for="estado">Estado:</label>
+
+<br>
+
+<select id="estado">
+
+    <option>Selecione um opção</option>
+
+    <option value="MG">Minas Gerais</option>
+
+    <option value="SP">São Paulo</option>
+
+    <option value="RJ">Rio de Janeiro</option>
+
+    <option value="ES">Espirito Santo</option>
+
+    <option value="AC">Acre</option>
+
+    </select>
+
+<br>
+
+<br>
+
+<input type="submit"
+
+        id="btnEnviar"
+
+        value="Enviar Dados">
+
+    </form>
+
+</body>
+
+</html>
