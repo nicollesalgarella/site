@@ -1,0 +1,26 @@
+h1 {
+    color: rgb(255, 0, 200);
+    font-size: 40px;
+    font-style: italic;
+}
+h2 {
+    color: rgb(133, 30, 192);
+    font-size: 28px;
+    font-style: italic;
+}
+p {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-style: italic;
+}
+
+li {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-style: italic;
+}
+
+body{
+    background-image: url(barbiezinha.jpg);
+    background-size: 100%;
+}    

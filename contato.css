@@ -1,0 +1,34 @@
+h1 {
+    font-style: oblique;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+
+label{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: 100;
+    font-size: 30px;
+    color: rgb(255, 0, 119);
+}
+
+input{
+    font-style:oblique;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+textarea{
+    font-style: oblique;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-image: url(winx.webp);
+    background-size: 100%;
+}    
+    
+

@@ -1,0 +1,23 @@
+h1 {
+    color: rgb(45, 42, 216);
+    font-size: 40px;
+    font-style: italic;
+}
+
+h3 {
+    color: rgb(45, 42, 216);
+    font-size: 34px;
+    font-style: italic;
+}
+
+ol {
+    font-size: 35px;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    text-shadow: black;
+}
+
+body{
+    background-image: url(everafterhigh.webp);
+    background-size:100%;
+}
